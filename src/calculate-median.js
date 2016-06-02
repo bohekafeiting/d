@@ -5,7 +5,7 @@ function calculate_median(arr) {
 	    if((i+1)%2==0)
 		  ave+=arr[i];
 	 }
-   return (ave/2);	 
+   return (parseFloat(ave/2));	 
 }
 
 module.exports = calculate_median;
